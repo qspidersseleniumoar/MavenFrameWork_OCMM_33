@@ -10,7 +10,10 @@ public class CustomerTest {
 		System.out.println("execute createCustomerTest");
 	}
 	
-	
+	@Test
+	public void duplicateCustomerTest() {
+		System.out.println("execute duplicateCustomerTest");
+	}
 	
 	@Test
 	public void searchCustomerTest() {
